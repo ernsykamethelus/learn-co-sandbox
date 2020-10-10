@@ -1,3 +1,4 @@
-10.times do
-puts "Hi! Welcome to my very repetitive program"
+primary_colors = ["Red, "Yellow", "Blue"]
+primary_colors.each do |color|
+puts "Primary Color #{color} is #{color.lenght} letter long."
 end
